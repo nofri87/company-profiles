@@ -1,0 +1,45 @@
+* {
+    padding: 0;
+    font-family: sans-serif;
+    margin: 0;
+}
+.medsos {
+    padding: 25px 0px; 
+    background-color: aqua;
+}
+.medsos ul li{
+    display: inline-block;
+    color: aquamarine;
+    margin-right: 10px;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+    border: 1px solid;
+}
+.container::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+header {
+    border: 1px solid;
+}
+header h1 {
+    border: 1p solid;
+    float: left;
+}
+header ul{
+    border: 1px solid;
+    float: right;
+
+}
+header ul li{
+    display: inline-block;
+}
+header ul li a{
+    padding: 25px 20px;
+    display: inline-block;
+}
